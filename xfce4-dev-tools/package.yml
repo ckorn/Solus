@@ -1,0 +1,18 @@
+name       : xfce4-dev-tools
+version    : 4.15
+release    : 1
+source     :
+    - https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.15/xfce4-dev-tools-4.15.0.tar.bz2 : e3109849f2db8609dd80b3a1273f658afef60cb46c506d1e044a264acc5a4dbc
+license    : GPL-2.0
+summary    : Xfce developer tools
+component  : programming.tools
+description: |
+    xfce4-dev-tools provide an easy way to handle the setup and maintenance of a projects build framework. It's required to build Xfce applications from git.
+builddeps  :
+    - pkgconfig(glib-2.0)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
