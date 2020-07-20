@@ -1,0 +1,177 @@
+<PISI>
+    <Source>
+        <Name>pragha</Name>
+        <Packager>
+            <Name>Christoph Korn</Name>
+            <Email>christoph.korn@posteo.de</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>multimedia.audio</PartOf>
+        <Summary xml:lang="en">Lightweight Music Player for GNU/Linux</Summary>
+        <Description xml:lang="en">Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk and sqlite. It is completely written in C, constructed to be fast, light, and simultaneously tries to be complete without obstructing the daily work. ;)
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>pragha</Name>
+        <Summary xml:lang="en">Lightweight Music Player for GNU/Linux</Summary>
+        <Description xml:lang="en">Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk and sqlite. It is completely written in C, constructed to be fast, light, and simultaneously tries to be complete without obstructing the daily work. ;)
+</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/pragha</Path>
+            <Path fileType="library">/usr/lib64/pragha/libpragha.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/acoustid/acoustid.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/acoustid/libacoustid.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/ampache/ampache.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/ampache/libpampache.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/cdrom/cdrom.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/cdrom/libcdrom.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/dlna-renderer/dlna-renderer.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/dlna-renderer/libpdlnarenderer.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/dlna/dlna.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/dlna/libdlna.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/gnome-media-keys/gnome-media-keys.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/gnome-media-keys/libgnome-media-keys.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/keybinder/keybinder.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/keybinder/libkeybinder.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/koel/koel.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/koel/libpkoel.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/mpris2/libmpris2.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/mpris2/mpris2.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/mtp/libpmtp.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/mtp/mtp.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/notify/libnotify.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/notify/notify.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/removable/libremovable.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/removable/removable.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/tunein/libtunein.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/tunein/tunein.plugin</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/visualizer/libvisualizer.so</Path>
+            <Path fileType="library">/usr/lib64/pragha/plugins/visualizer/visualizer.plugin</Path>
+            <Path fileType="data">/usr/share/applications/pragha.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/pragha/ChangeLog</Path>
+            <Path fileType="doc">/usr/share/doc/pragha/FAQ</Path>
+            <Path fileType="doc">/usr/share/doc/pragha/NEWS</Path>
+            <Path fileType="doc">/usr/share/doc/pragha/README</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/pragha-panel.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/pragha-panel.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/pragha-panel.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/pragha.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/pragha-panel-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca_ES/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko_KR/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/no/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/pragha.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/pragha.1</Path>
+            <Path fileType="data">/usr/share/metainfo/io.github.pragha_music_player.metainfo.xml</Path>
+            <Path fileType="data">/usr/share/pixmaps/pragha/album.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/pragha/artist.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/pragha/cover.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/pragha/genre.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/pragha/track.png</Path>
+            <Path fileType="data">/usr/share/pragha/style/pragha.css</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>pragha-devel</Name>
+        <Summary xml:lang="en">Development files for pragha</Summary>
+        <Description xml:lang="en">Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk and sqlite. It is completely written in C, constructed to be fast, light, and simultaneously tries to be complete without obstructing the daily work. ;)
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">pragha</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/libpragha/gtkcellrendererbubble.h</Path>
+            <Path fileType="header">/usr/include/libpragha/plugins/pragha-plugin-macros.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-album-art.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-app-notification-container.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-app-notification.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-art-cache.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-backend.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-background-task-bar.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-background-task-widget.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-database-provider.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-database.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-debug.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-device-client.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-dnd.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-equalizer-dialog.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-favorites.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-file-utils.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-filter-dialog.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-hig.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-library-pane.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-menubar.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-music-enum.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-musicobject-mgmt.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-musicobject.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-playback.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-playlist.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-playlists-mgmt.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-plugins-engine.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-preferences-dialog.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-preferences.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-prepared-statement-private.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-prepared-statement.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-provider.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-scanner.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-search-entry.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-session.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-sidebar.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-simple-async.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-simple-widgets.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-song-cache.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-statusbar.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-statusicon.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-tagger.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-tags-dialog.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-tags-mgmt.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-temp-provider.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-toolbar.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-utils.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha-window.h</Path>
+            <Path fileType="header">/usr/include/libpragha/pragha.h</Path>
+            <Path fileType="header">/usr/include/libpragha/xml_helper.h</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libpragha.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-07-20</Date>
+            <Version>1.3.99.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Christoph Korn</Name>
+            <Email>christoph.korn@posteo.de</Email>
+        </Update>
+    </History>
+</PISI>
